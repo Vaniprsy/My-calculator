@@ -20,6 +20,8 @@ def multiply(a, b):
     result = a * b
     print(f"Result: {result}")
     return result
+def power(a,b):
+    return a**b;
 
 def divide(a, b):
     """Divide a by b with enhanced error handling."""
